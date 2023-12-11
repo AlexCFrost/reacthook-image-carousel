@@ -1,1 +1,33 @@
-/* write down the css for Carousel in this file */
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+  .image-cont {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .carousel-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .sub-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Adjust text color */
+    width: 100%; /* Ensure text takes full width of the image */
+  }
+  
+  .sub-cont h2,
+  .sub-cont p {
+    margin: 0;
+    padding: 10px; /* Add padding for better readability */
+  }
+  
